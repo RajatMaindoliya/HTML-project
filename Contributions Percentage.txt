@@ -1,0 +1,9 @@
+The Contributions percentage of the members:
+
+1) Name: Rajat Maindoliya, ID: 20249071, File1: 100%, File2: 0%, File3: 0%, File4: 0%, Overall: 25%.
+
+2) Name: Adile Kutlu, ID: 20275676, File1: 0%, File2: 100%, File3: 0%, File4: 0%, Overall: 25%.
+
+3) Name: Zeba Marium, ID: 20238185, File1: 0%, File2: 0%, File3: 100%, File4: 0%, Overall: 25%.
+
+4) Name: Kim O'Regan, ID: 20277628, File: 0%, File2: 0%, File3: 0%, File4: 100%, Overall: 25%. 

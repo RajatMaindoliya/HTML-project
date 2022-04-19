@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.header {
+  padding: 30px;
+  color:#666;
+  text-align: center;
+  background: white;
+	text-shadow: 2px 2px 5px #414142;
+  }
+
+
+.topnav {
+  overflow: hidden;
+  background-color:#003468
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #68bdd8;
+  color: white;
+}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #68bdd8;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background:#68bdd8;
+  color: #414142 !important
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* image */
+.img1 {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="Walk For Hope.html">Home</a>
+  <a href="eventsnews.html">Events</a>
+  <a href="Charities.html">Charities</a>
+  <a href="About Us.html">About</a>
+</div>
+
+
+<h1 class="header">News and Events this Month</h1>
+
+<div class="month">      
+  <ul>
+    
+    <li>
+      December<br>
+      <span style="font-size:18px">2020</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">  
+  <li> </li>
+  <li>1</li>
+  <li>2</li>
+  <li><span class="active"><b>3</b></span></li>
+  <li>4</li>
+  <li>5</li>
+  <li><span class="active"><b>6</b></span></li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li><span class="active"><b>13</b></span></li>
+  <li>14</li>
+  <li>15</li>
+  <li><span class="active"><b>16</b></span></li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li><span class="active"><b>20</b></span></li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li><span class="active"><b>27</b></span></li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Announcement</h2>
+      <h5>This weeks walk, Dec 20, 2020</h5>
+      <img src="dromorecastle.jpeg" class="img1;">
+      <p>This weeks walk will take place in Dromore Woods!</p>
+      <p>The walk will begin from the information centre at 10AM. Please arrive 10 minutes early to give our contribution.</p>
+      <p>The walk organisers this week will be Adile and Zeba. Please make sure to sign in with them.</p>
+      <p>Looking forward to seeing you all!</p>
+      </div>
+    <div class="card">
+      <h2>Thank You!</h2>
+      <h5>Helping you help others, Dec 1, 2020</h5>
+      <<img src="mindsmatter.jpeg" class="img1";>
+      <p>In Collaboration with Minds Matter,together we have raised over 5000 euro.</p>
+      <p>Last month, We reached a large milestone. Walk for Hope partnered with Minds Matter in May 2019.</p>
+      <p>Since then, You're hard work and dedication have helped fund several youth groups across the country.</p>
+      <p>The Minds Matter help-line has also been able to take on new workers and expand their services,</p>
+      <p>Keep up the hard work, You are making a difference!</p>
+    </div> 
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Important Dates</h2>
+      <p><b>3/12/2020</b> - Information night with Minds Matter on Zoom, 8PM</p>
+      <p><b>6/12/2020</b> - First walk of the month, Lahinch, 10AM</p>
+      <p><b>13/12/2020</b> - Second walk, King Johns Castle, 10AM </p>
+      <p><b>16/12/2020</b> - Information night with Learning Together, 8PM</p>
+      <p><b>20/12/2020</b> - Third walk, Dromore Woods, 10AM</p>
+      <p><b>27/12/2020</b> - Final walk of December, TBA, 10AM</p>
+    </div>
+    <div class="card">
+      <h3>Photos from 6/12/2020</h3>
+      <img src="walk1.jpeg" class="img1">
+      <img src="walk3.jpeg" class="img1">
+      <img src="walk2.jpeg" class="img1">
+    </div>
+    <div class="card">
+      <h3>Information Night</h3>
+      <p><b>16/12/2020</b></p>
+      <p>Learning Together will be hosting an informational talk to tell us about how they spend their donations, and how you are helping to support local communities with your donations!</p>
+      <p>Subscribe to our email newsletter to keep up to date.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Walk For Hope</h2>
+  <p>55A Parnell Street,</p>
+<p>Ennis, Co Clare.</p>
+<p> </p>
+<p>Phone:065 682 7693</p>
+<p> </p>
+<p>E-mail: enquiries@walkforhope.ie</p>
+</div>
+
+
+
+</body>
+</html>

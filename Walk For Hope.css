@@ -1,0 +1,95 @@
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  font-size:700%;
+  color:black;
+}
+
+.Line1 {
+  text-align:center;
+  color:rgb(104,189,216); 
+  font-family:arial; 
+  font-size:300%;
+  padding-top: 100px;
+}
+
+.Line2 {
+  color:black; 
+  text-align:center; 
+  font-family:arial; 
+  font-size:200%;
+  padding-top: 50px;
+}
+
+
+#HomeLinks{
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+}
+
+.NavButtons{
+  width: 400px;
+  background-color: black;
+  color: black;
+  text-align: center;
+  height: 25vw;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2vw;
+  display: grid;
+}
+
+
+#HomeLink1{
+  background-size:500px 500px ;
+  background-image: url(Picture14.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#HomeLink2{
+  background-size:500px 500px;
+  background-image: url(Picture15.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#HomeLink3{
+  background-size:310px 310px;
+  background-image: url(Picture16.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#footer{
+  background-color: lightgrey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+#footer ul{
+ list-style-type: none;
+ color:black;
+ text-align: center;
+}
+
+ 
+
+
+ 
